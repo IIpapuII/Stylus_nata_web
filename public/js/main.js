@@ -279,13 +279,13 @@
     /*==================================================================
     [ Show modal2 ]*/
     //open
-    $('.js-show-modal2').on('click',function(e){
+    $('.js-show-modal21').on('click',function(e){
         e.preventDefault();
-        $('.js-modal2').addClass('show-modal1');
+        $('.js-modal21').addClass('show-modal1');
     });
     //close
-    $('.js-hide-modal2').on('click',function(){
-        $('.js-modal2').removeClass('show-modal1');
+    $('.js-hide-modal21').on('click',function(){
+        $('.js-modal21').removeClass('show-modal1');
     });
     /*==================================================================
     [ Show modal3 ]*/
